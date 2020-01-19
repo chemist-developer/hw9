@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>lesson10</title>
+</head>
+<body>
+    <script>
+        function getSum () {
+            let item = 0;
+            return (num) => item += num;
+        }
+        let sum= getSum();
+        sum(6);
+        sum(9);
+        console.log(sum(10));
+    </script>
+</body>
+</html>
